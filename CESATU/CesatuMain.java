@@ -1,4 +1,4 @@
-package Java;
+package CESATU;
 import java.util.Scanner;
 
 public class CesatuMain {
@@ -23,25 +23,36 @@ public static void main(String[] args) {
         Login login = new Login(nama, id, password);
         if (password == 123) {
             login.Displaylogin();
+            System.out.println("----------------------------------------------------");
+            System.out.println("Masukkan menu anda : ");
+            System.out.println("Nasi sambal / Nasi sambal cesatu / RiceBox Cesatu");
+            String menu =  sc.next();
+
+            System.out.println("Masukkan harga : ");
+            int harga = sc.nextInt();
+
+            sc.nextLine();
+
+            System.out.println("Masukkan diskon : ");
+            int diskon = sc.nextInt();
+            
+            sc.nextLine();
+
+            System.out.println("-----------------------------------------------------");  
+            Main main = new Main(menu, harga, diskon);
+            
+            main.tampil();
+            System.out.println("-----------------------------------------------------");
         } else {
             System.out.println("Data atau Password anda salah ! ");
+
+            sc.close();
         }
     } else {
         System.out.println("Anda keluar dari Program ! ");
     }
     
-    System.out.println("----------------------------------------------------");
-    System.out.println("Masukkan menu anda : ");
-    System.out.println("Nasi sambal / Nasi sambal cesatu / RiceBox Cesatu");
-    String menu = sc.nextLine();
-    System.out.println("Masukkan harga : ");
-    int harga = sc.nextInt();
-    System.out.println("Masukkan diskon : ");
-    int diskon = sc.nextInt();
-    System.out.println("-----------------------------------------------------");  
-    Main main = new Main(menu, harga, diskon);
-    
-    main.tampil();
-    System.out.println("-----------------------------------------------------");
+    sc.close();
+   
 }    
 }

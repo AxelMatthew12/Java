@@ -1,4 +1,4 @@
-package Java;
+package CESATU;
 public class Login {
    String nama;
    String id;
