@@ -39,7 +39,7 @@ public static void main(String[] args) {
             sc.nextLine();
 
             System.out.println("-----------------------------------------------------");  
-            Main main = new Main(menu, harga, diskon);
+            Menu main = new Menu(menu, harga, diskon);
             
             main.tampil();
             System.out.println("-----------------------------------------------------");

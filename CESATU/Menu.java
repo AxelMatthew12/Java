@@ -1,12 +1,12 @@
 package CESATU;
 
-public class Main {
+public class Menu {
     String menu;
     int harga;
     int diskon;
     
 
- Main(String m, int h, int dc ) {
+ Menu(String m, int h, int dc ) {
     menu = m;
     harga = h;
     diskon = dc; 
