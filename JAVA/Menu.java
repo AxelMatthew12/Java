@@ -1,4 +1,4 @@
-package CESATU;
+package JAVA;
 
 public class Menu {
     String menu;
