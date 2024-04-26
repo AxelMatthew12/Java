@@ -1,5 +1,5 @@
 package CESATU;
-import java.time.LocalDateTime;
+
 
 public class User {
     String nama;
@@ -14,11 +14,9 @@ public class User {
 
     }
     void CheckMember(){
-        LocalDateTime Ldate =LocalDateTime.now();
         System.out.println("Nama anda :"+ nama);
         System.out.println("Alamat    :"+ alamat);
         System.out.println("No telp   :"+ noTelp);
-        System.out.println(Ldate);
     }
     
 
