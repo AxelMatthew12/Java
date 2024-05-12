@@ -18,7 +18,7 @@ public class CesatuDisplay {
        
         Admin admin = new Admin(nama, id, password);
         admin.ChecksStatus();
-        System.out.println("\n=========================================");
+        System.out.println("\n============================");
         DisplayConcept display = new DisplayConcept();
 
         display.Display();

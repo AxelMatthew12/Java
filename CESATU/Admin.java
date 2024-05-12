@@ -15,29 +15,29 @@ public class Admin {
          String id1= "001";
          String id2="002";
          String id3="003";
-         System.out.println("\n==========================");
-            System.out.println("Nama anda   : " + nama);
-            System.out.println("ID anda     : "+ id);
-            System.out.println("=======================");
+         System.out.println("\n===============================");
+            System.out.println("Nama anda   : " + nama+"" +"\t||");
+            System.out.println("ID anda     : "+ id   +"" +"\t||");
+            System.out.println("==============================");
          if (id.equals(id1)) {
             System.out.println("Status ID : Berhasil");
             System.out.println("Role      : Admin1");
-            System.out.println("=======================");
+            System.out.println("=========================");
             // BoardMenu();
          }else if (id.equals(id2)) {
             System.out.println("Status ID : Berhasil");
             System.out.println("Role      : Admin2");
-            System.out.println("=======================");
+            System.out.println("=========================");
             // BoardMenu();
          }else if (id.equals(id3)) {
             System.out.println("Status ID : Berhasil");
             System.out.println("Role      : Admin3");
-            System.out.println("=======================");
+            System.out.println("=========================");
             // BoardMenu();
          }else {
            System.out.println("Status ID : Tidak Valid !"); 
             System.out.println("Role     : tidak di temukkan");
-            System.out.println("========================");
+            System.out.println("=========================");
             // BoardMenu();
          }
          
